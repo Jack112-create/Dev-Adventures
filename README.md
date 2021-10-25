@@ -41,7 +41,7 @@ The game is built using python and is played by entering commands into the termi
 ### Strategy
 Dev Adventures is intended to be a fun to play text based adventure that provides the user with an exciting
 storyline of becoming a Full Stack Developer. The user must prove that they are worthy of becoming a Full Stack Developer
-by completing a series of challenges and obtaining the required skillset.
+by completing a series of challenges and obtaining the required skillset to become a Developer.
 
 ### Scope
 
