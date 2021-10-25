@@ -27,7 +27,7 @@ The game is built using python and is played by entering commands into the termi
 ### User Stories
 * As a user, when I first visit the game I would like to be given the following choices:
     - Play the game. 
-    - View the game rules
+    - View the game rules.
     - Quit the game.
 * As a user, I want a challenging game that has repercussions if I do not make the correct choice.
 * As a user, I want a score system that is tracked as I progress through each challenge.
@@ -39,6 +39,7 @@ The game is built using python and is played by entering commands into the termi
 * Provide the user with pop up challenge that requires an answer within the given time limit.
 
 ### Strategy
+
 
 ### Scope
 
