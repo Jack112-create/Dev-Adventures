@@ -33,6 +33,10 @@ The game is built using python and is played by entering commands into the termi
 * As a user, I want a score system that is tracked as I progress through each challenge.
 
 ### Site Goals
+* Create a simple fun to play text based adventure.
+* Provide users with an interesting story.
+* Provide users with difficult questions throughout the game.
+* Provide the user with pop up challenge that requires an answer within the given time limit.
 
 ### Strategy
 
