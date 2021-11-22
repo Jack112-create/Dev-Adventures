@@ -81,3 +81,41 @@ javascript_questions = [
         'correct': 'All of the above'
     }
 ]
+
+python_questions = [
+    {
+        'question': 'Which of the following is the correct syntax to define a function?:',
+        'answers': ['def my_function():', 'function():', 'def my_function()'],
+        'correct': 'def my_function():'
+    },
+    {
+        'question':
+            """
+What will the output be for the code below:
+def display_helloworld():
+    print('Hello World!')
+""",
+        'answers': ['Hello World!', 'Nothing', 'Error'],
+        'correct': 'Hello World!'
+    },
+    {
+        'question':
+            """
+What arguments do you need to pass into the function for it to return 2:
+def divide_numbers(num1, num2):
+    num1 // num2
+""",
+        'answers': ['10, 5', '3, 1', '18, 6'],
+        'correct': '10, 5'
+    },
+    {
+        'question': 'Which one of the following is NOT a Python Arithmetic Operator?:',
+        'answers': ['//', '/', '*', '~'],
+        'correct': '~'
+    },
+    {
+        'question': 'Which of the following is the correct syntax for creating a list?:',
+        'answers': ['[]', '{}', '()', 'All of the above'],
+        'correct': '[]'
+    }
+]
