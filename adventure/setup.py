@@ -40,6 +40,7 @@ def rules_menu():
     print('- Do not let your confidence drop to 0.')
     print('- Get all the skills you need to become a Junior Developer.')
     print('- Good luck and have fun!')
+    print('\nType "play" or "quit"')
     title_screen_selections()
 
 
