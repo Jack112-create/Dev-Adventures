@@ -29,6 +29,7 @@ def title_screen():
     -          Rules          -
     -          Quit           -
     Type 'play', 'rules' or 'quit'.""")
+    title_screen_selections()
 
 
 def rules_menu():
@@ -39,6 +40,7 @@ def rules_menu():
     print('- Do not let your confidence drop to 0.')
     print('- Get all the skills you need to become a Junior Developer.')
     print('- Good luck and have fun!')
+    title_screen_selections()
 
 
 def title_screen_selections():
