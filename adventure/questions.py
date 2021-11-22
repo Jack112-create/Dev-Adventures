@@ -25,3 +25,31 @@ html_questions = [
         'correct': '<body style="font-size: 20px;">'
     }
 ]
+
+css_questions = [
+    {
+        'question': 'What does CSS stand for?:',
+        'answers': ['Cascading Style Sheet', 'Computer Style Sheet', 'Creative Style Sheet'],
+        'correct': 'Cascading Style Sheet'
+    },
+    {
+        'question': 'Choose the correct way to link a CSS file to a HTML file:',
+        'answers': ['<link rel="stylesheet" href="styles.css">', '<link to="stylesheet"', '<link rel="style.css"'],
+        'correct': '<link rel="stylesheet" href="styles.css">'
+    },
+    {
+        'question': 'Which of the following target a div element with an ID of "container":',
+        'answers': ['#container{}', '.container{}', 'container{}'],
+        'correct': '#container{}'
+    },
+    {
+        'question': 'Which of the following target a div element with a class of "content":',
+        'answers': ['.content{}', '#content{}', 'content{}'],
+        'correct': '.content{}'
+    },
+    {
+        'question': 'Which of the following are a CSS Preprocessor?:',
+        'answers': ['SASS', 'Less', 'Stylus', 'All of the above'],
+        'correct': 'All of the above'
+    }
+]
