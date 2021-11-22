@@ -39,3 +39,22 @@ def rules_menu():
     print('- Do not let your confidence drop to 0.')
     print('- Get all the skills you need to become a Junior Developer.')
     print('- Good luck and have fun!')
+
+
+def title_screen_selections():
+    # Validating users input to ensure they select one of the screens.
+    screen_choice = ''
+    while screen_choice not in ['play', 'rules', 'quit']:
+        screen_choice = input('> ').lower()
+        if screen_choice == 'play':
+            print('play')
+            break
+        elif screen_choice == 'rules':
+            rules_menu()
+            break
+        elif screen_choice == 'quit':
+            game_over()
+            break
+        else:
+            print('\nInvalid choice. Please type "play", "rules" or "quit".')
+            continue
