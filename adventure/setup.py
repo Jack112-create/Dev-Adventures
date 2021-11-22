@@ -29,3 +29,13 @@ def title_screen():
     -          Rules          -
     -          Quit           -
     Type 'play', 'rules' or 'quit'.""")
+
+
+def rules_menu():
+    clear_terminal()
+    print('###########################')
+    print('+       How To Play       +')
+    print('###########################')
+    print('- Do not let your confidence drop to 0.')
+    print('- Get all the skills you need to become a Junior Developer.')
+    print('- Good luck and have fun!')
