@@ -53,3 +53,31 @@ css_questions = [
         'correct': 'All of the above'
     }
 ]
+
+javascript_questions = [
+    {
+        'question': 'Which of the following is the syntax to define a function:',
+        'answers': ['function myFunction(){}', 'myFunction(){}', 'function{}'],
+        'correct': 'function myFunction(){}'
+    },
+    {
+        'question': 'Inside which HTML element do we put the JavaScript?:',
+        'answers': ['<script>', '<javascript>', '<js>'],
+        'correct': '<script>'
+    },
+    {
+        'question': 'Where is the correct place to insert a javascript file?:',
+        'answers': ['<head>', '<body>', 'both the <head> and the <body> section are correct'],
+        'correct': 'both the <head> and the <body> section are correct'
+    },
+    {
+        'question': 'What is the correct method to target an element by its ID?:',
+        'answers': ['document.getElementById()', 'document.getElementsByClassName()', 'document.getElement()'],
+        'correct': 'document.getElementById()'
+    },
+    {
+        'question': 'Select the JavaScript keyword:',
+        'answers': ['let', 'const', 'var', 'All of the above'],
+        'correct': 'All of the above'
+    }
+]
