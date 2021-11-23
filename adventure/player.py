@@ -46,3 +46,6 @@ Score: {self.score}
             self.confidence = 0
         print('\nYour confidence has dropped.')
         print("Confidence Level:", self.confidence)
+
+    def set_skills(self, new_skill):
+        self.skills.append(new_skill)
