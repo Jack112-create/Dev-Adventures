@@ -32,3 +32,6 @@ class Room:
         time.sleep(1)
         print(f'{self.room} has been added to your skills!')
         time.sleep(1)
+
+    def display_question(self, question):
+        print(question)
