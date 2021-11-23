@@ -24,3 +24,11 @@ class Room:
     - Get a question right and your score will increase.
     - Get a question wrong and watch both your confidence level and score go down!
     """)
+
+    # End the room.
+    def room_over(self):
+        clear_terminal()
+        print('Congratulations!')
+        time.sleep(1)
+        print(f'{self.room} has been added to your skills!')
+        time.sleep(1)
