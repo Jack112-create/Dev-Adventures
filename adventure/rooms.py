@@ -9,7 +9,7 @@ class Room:
     passing in the language and questions
     about the language.
     """
-    
+
     def __init__(self, room, room_questions):
         self.room = room
         self.room_questions = room_questions
@@ -27,7 +27,7 @@ class Room:
 
     def generate_question(self):
         """
-        Returns a random question, 
+        Returns a random question,
         list of answers and correct answer.
         """
         print(f'Questions left: {len(self.room_questions)}')
