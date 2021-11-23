@@ -39,3 +39,17 @@ class Room:
         for item in self.room_questions:
             if item['question'] == question:
                 self.room_questions.pop(self.room_questions.index(item))
+
+    def generate_question(self):
+        """
+        Returns a random question, 
+        list of answers and correct answer.
+        """
+        print(f'Questions left: {len(self.room_questions)}')
+        question_dict = random.choice(self.room_questions)
+        question = question_dict['question']
+        answers = question_dict['answers']
+        correct_answer = question_dict['correct']
+        # Changing the order of answers.
+        random.shuffle(answers)
+        return {'question': question, 'answers': answers, 'correct_answer': correct_answer}
