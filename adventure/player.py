@@ -37,3 +37,12 @@ Score: {self.score}
         # Stops score from going below 0.
         if self.score > 0:
             self.score -= 1
+
+    def lower_confidence(self, new_confidence=random.randint(1, 15)):
+        min_confidence = 0
+        self.confidence = self.confidence - new_confidence
+        # Stops confidence level from going below 0.
+        if self.confidence < min_confidence:
+            self.confidence = 0
+        print('\nYour confidence has dropped.')
+        print("Confidence Level:", self.confidence)
