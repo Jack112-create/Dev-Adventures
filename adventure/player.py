@@ -29,3 +29,8 @@ Job: {self.job}
 ----------------------
 Score: {self.score}
 """)
+
+    def increase_score(self):
+        self.score += 1
+
+    
