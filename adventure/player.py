@@ -8,3 +8,9 @@ class Player:
     job, and a list of skills
     """
 
+    def __init__(self, name):
+        self.name = name
+        self.job = ''
+        self.confidence = 100
+        self.skills = []
+        self.score = 0
