@@ -25,21 +25,6 @@ class Room:
     - Get a question wrong and watch both your confidence level and score go down!
     """)
 
-    # End the room.
-    def room_over(self):
-        clear_terminal()
-        print('Congratulations!')
-        time.sleep(1)
-        print(f'{self.room} has been added to your skills!')
-        time.sleep(1)
-
-    def display_question(self, question):
-        print(question)
-        # Checking if question has been asked and removes it from list.
-        for item in self.room_questions:
-            if item['question'] == question:
-                self.room_questions.pop(self.room_questions.index(item))
-
     def generate_question(self):
         """
         Returns a random question, 
@@ -54,6 +39,13 @@ class Room:
         random.shuffle(answers)
         return {'question': question, 'answers': answers, 'correct_answer': correct_answer}
 
+    def display_question(self, question):
+        print(question)
+        # Checking if question has been asked and removes it from list.
+        for item in self.room_questions:
+            if item['question'] == question:
+                self.room_questions.pop(self.room_questions.index(item))
+
     def display_answers(self, answers):
         """
         Prints each answer along with its index.
@@ -61,3 +53,11 @@ class Room:
         for index, value in enumerate(answers):
             # Starting answer index at 1.
             print(index + 1, value)
+
+    # End the room.
+    def room_over(self):
+        clear_terminal()
+        print('Congratulations!')
+        time.sleep(1)
+        print(f'{self.room} has been added to your skills!')
+        time.sleep(1)
