@@ -33,4 +33,7 @@ Score: {self.score}
     def increase_score(self):
         self.score += 1
 
-    
+    def lower_score(self):
+        # Stops score from going below 0.
+        if self.score > 0:
+            self.score -= 1
