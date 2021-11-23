@@ -53,3 +53,11 @@ class Room:
         # Changing the order of answers.
         random.shuffle(answers)
         return {'question': question, 'answers': answers, 'correct_answer': correct_answer}
+
+    def display_answers(self, answers):
+        """
+        Prints each answer along with its index.
+        """
+        for index, value in enumerate(answers):
+            # Starting answer index at 1.
+            print(index + 1, value)
