@@ -35,3 +35,7 @@ class Room:
 
     def display_question(self, question):
         print(question)
+        # Checking if question has been asked and removes it from list.
+        for item in self.room_questions:
+            if item['question'] == question:
+                self.room_questions.pop(self.room_questions.index(item))
