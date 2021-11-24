@@ -287,10 +287,12 @@ amazing team.""")
         elif company == "Facebook":
             print(f"""You joined Facebook!
 You have joined the {company} team as a {role}
-and get to work alongside with your childhood hero, Mark Zuckerburg!""")
+and get to work alongside with your childhood hero,
+ Mark Zuckerburg!""")
         else:
             print(f"""You joined Apple!
-You have joined the {company} team as an {role} and get to work on the next iOS updates.""")
+You have joined the {company} team as an {role} and get to work on the next 
+iOS updates.""")
 
         time.sleep(1)
         print("""
