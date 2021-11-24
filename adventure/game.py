@@ -115,3 +115,33 @@ class Game:
         Prints each room and its index value,
         asks user to select the room to play.
         """
+
+        while len(rooms) > 0:
+            print("Which language would you like to learn?:")
+            for index, value in enumerate(rooms):
+                print(index + 1, value)
+            try:
+                choice = int(input('> '))
+                room = self.rooms[choice - 1]
+                if room == 'HTML':
+                    self.play_quiz(self.html_room)
+                    continue
+                elif room == 'CSS':
+                    self.play_quiz(self.css_room)
+                    continue
+                elif room == 'JavaScript':
+                    self.play_quiz(self.javascript_room)
+                    continue
+                elif room == 'Python':
+                    self.play_quiz(self.python_room)
+                    continue
+            except ValueError:
+                print(f"""
+Invalid choice. You must type a number from 1 - {len(rooms)}.
+""")
+                continue
+            except IndexError:
+                print(f"""
+You must type a number from 1 - {len(rooms)}.
+""")
+                continue
