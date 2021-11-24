@@ -76,7 +76,15 @@ will have either a positive or negative impact depending on if the user has answ
 ### Title Screen
 - The title screen presents the user with the game title and provides options to
 play the game, view the game rules or to quit the game
+
 ![Title Screen](assets/features/title.png)
+
+**User stories related to this feature:**
+
+* As a user, when I first visit the game I would like to be given the following choices:
+    - Play the game. 
+    - View the game rules.
+    - Quit the game.
 
 
 ### Testing
