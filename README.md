@@ -73,6 +73,10 @@ will have either a positive or negative impact depending on if the user has answ
 
 ### Features
 
+### Title Screen
+![Title Screen](assets/features/title.png)
+
+
 ### Testing
 
 #### HTML
