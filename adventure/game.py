@@ -21,3 +21,8 @@ class Game:
         self.css_room = Room('CSS', css_questions)
         self.javascript_room = Room('JavaScript', javascript_questions)
         self.python_room = Room('Python', python_questions)
+    
+    def start(self):
+        clear_terminal()
+        self.user.show_stats()
+        print('Type "c" to continue or "q" to quit.')
