@@ -109,3 +109,9 @@ class Game:
         print("You're now feeling AWAKE and ready to start learning how to code.\n")
         time.sleep(1)
         self.choose_room(self.rooms)
+
+    def choose_room(self, rooms):
+        """
+        Prints each room and its index value,
+        asks user to select the room to play.
+        """
