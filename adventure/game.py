@@ -63,7 +63,7 @@ class Game:
                     self.is_player_dead()
                     break
                 elif morning_choice == 2:
-                    print('Good choice!')
+                    self.kitchen()
                     break
                 else:
                     print("\nInvalid choice. Please type either 1 or 2.")
