@@ -37,3 +37,8 @@ class Game:
                 game_over()
             else:
                 print('\nInvalid choice. Please type "c" or "q".')
+
+    # Checks to see if the player has lost all of their confidence and ends game if true.
+    def is_player_dead(self):
+        if self.user.confidence <= 0:
+            game_over()
