@@ -1,4 +1,4 @@
-from functions import clear_terminal
+from adventure.functions import clear_terminal
 import random
 import time
 
