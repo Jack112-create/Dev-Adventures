@@ -73,7 +73,7 @@ will have either a positive or negative impact depending on if the user has answ
 
 ### Features
 
-### Title Screen
+#### Title Screen
 - The title screen presents the user with the game title and provides options to
 play the game, view the game rules or to quit the game
 
@@ -86,6 +86,15 @@ play the game, view the game rules or to quit the game
     - View the game rules.
     - Quit the game.
 
+#### Intro Scene
+- The intro scene presents the user with the game story and goal. The user must enter their
+name in order to create their developer character.
+
+![Intro Scene](assets/features/intro.png)
+
+**User stories related to this feature:**
+
+* As a user, I want to be able to view my stats throughout the game.
 
 ### Testing
 
