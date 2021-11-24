@@ -152,3 +152,13 @@ You must type a number from 1 - {len(rooms)}.
         language chosen by the user.
         """
         room.room_task()
+        while len(room.room_questions) > 0:
+            generated_question = room.generate_question()
+            room.display_question(generated_question['question'])
+            room.display_answers(generated_question['answers'])
+            self.check_answer(generated_question['answers'], generated_question['correct_answer'])
+        room.room_over()
+        self.rooms.pop(self.rooms.index(room.room))
+        self.user.set_skills(room.room)
+        self.user.show_stats()
+        time.sleep(1)
