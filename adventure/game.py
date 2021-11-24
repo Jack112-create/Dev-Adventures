@@ -90,7 +90,7 @@ class Game:
                     continue
                 else:
                     if kitchen_choice == 1:
-                        print("You drink youre coffee")
+                        self.drink_coffee()
                         break
                     elif kitchen_choice == 2:
                         clear_terminal()
