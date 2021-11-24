@@ -56,6 +56,14 @@ they have chosen from a list of languages.
 - The user should be provided with a clear indication that the game has completed.
 
 ### Structure
+- The title Screen provides the user with the options to start the game, view the game rules or to exit the game.
+
+- The introduction scene will ask the user to input their name in order to setup their stats.
+
+- The user will be asked a series of questions as they enter each language room. The changes made to the users stats 
+will have either a positive or negative impact depending on if the user has answered the question correctly or not.
+
+- The user is presented with a message that will notify them if they have win/lost the game.
 
 ### Skeleton
 
