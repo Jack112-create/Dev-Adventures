@@ -273,3 +273,10 @@ You have made it to the final stage for the following 3 companies:
             except ValueError:
                 print('\nYou cannot enter any text. Please type "1", "2" or "3" to continue')
                 continue
+
+    def end(self, role, company):
+        clear_terminal()
+        self.user.job = f"{role} @ {company}"
+        self.user.show_stats()
+        time.sleep(1)
+
