@@ -26,3 +26,14 @@ class Game:
         clear_terminal()
         self.user.show_stats()
         print('Type "c" to continue or "q" to quit.')
+
+        # Validating user input.
+        answer = ''
+        while answer not in ['c', 'q']:
+            answer = input('> ').lower()
+            if answer == 'c':
+                self.morning()
+            elif answer == 'q':
+                game_over()
+            else:
+                print('\nInvalid choice. Please type "c" or "q".')
