@@ -87,7 +87,7 @@ play the game, view the game rules or to quit the game
     - View the game rules.
     - Quit the game.
 
-### Rules Screen
+#### Rules Screen
 - The rules screen provides the user with a brief overview on how to play the game.
 
 **User stories related to this feature:**
