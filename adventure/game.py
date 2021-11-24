@@ -42,3 +42,11 @@ class Game:
     def is_player_dead(self):
         if self.user.confidence <= 0:
             game_over()
+
+    def morning(self):
+        clear_terminal()
+        time.sleep(1)
+        print("It's really early in the morning and your alarm goes off.")
+        print("Will you?:\n")
+        print('1 Go back to sleep.')
+        print('2 Get up and get dressed.')
