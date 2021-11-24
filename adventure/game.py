@@ -50,3 +50,24 @@ class Game:
         print("Will you?:\n")
         print('1 Go back to sleep.')
         print('2 Get up and get dressed.')
+
+     # Validating user input. Catching any unexpected input.
+        morning_choice = ''
+        while morning_choice not in [1, 2]:
+            try:
+                morning_choice = int(input('> '))
+                if morning_choice == 1:
+                    clear_terminal()
+                    print('\nYou really gave up on your journey that easy?\n')
+                    self.user.lower_confidence(self.user.confidence)
+                    self.is_player_dead()
+                    break
+                elif morning_choice == 2:
+                    print('Good choice!')
+                    break
+                else:
+                    print("\nInvalid choice. Please type either 1 or 2.")
+                    continue
+            except ValueError:
+                print("\nYou cannot input any text. You must type either 1 or 2.")
+                continue
