@@ -50,7 +50,7 @@ def title_screen_selections():
     while screen_choice not in ['play', 'rules', 'quit']:
         screen_choice = input('> ').lower()
         if screen_choice == 'play':
-            print('play')
+            
             break
         elif screen_choice == 'rules':
             rules_menu()
@@ -61,3 +61,14 @@ def title_screen_selections():
         else:
             print('\nInvalid choice. Please type "play", "rules" or "quit".')
             continue
+
+
+def intro_scene():
+    clear_terminal()
+    print("""
+Hello there adventurer! It's time to embark on your journey of becoming a Full
+Stack Developer.
+This won't be the easy journey as it requires a lot of patience and self belief.
+You will face a series of challenges throughout your journey that will mould
+you into becoming a great developer!
+Before we begin this new and exciting journey you must enter your name:""")
