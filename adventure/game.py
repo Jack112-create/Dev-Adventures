@@ -156,7 +156,7 @@ You must type a number from 1 - {len(rooms)}.
                 print('Congratulations!')
                 print('You have accquired all the skills needed to become a Developer!')
                 print('You should be proud of yourself!')
-                
+                self.job_hunt()
                 break
             elif answer == 'q':
                 clear_terminal()
