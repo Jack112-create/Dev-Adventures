@@ -27,6 +27,7 @@ The game is built using python and is played by entering commands into the termi
     - Play the game. 
     - View the game rules.
     - Quit the game.
+* As a user, I want an interesting storyline.
 * As a user, I want a challenging game that has repercussions if I do not make the correct choice.
 * As a user, I want a message to be displayed to notify me if I have gotten a question correct or incorrect.
 * As a user, I want to be able to view my stats throughout the game.
@@ -106,7 +107,7 @@ name in order to create their developer character.
 
 **User stories related to this feature:**
 
-* As a user, I want to be able to view my stats throughout the game.
+* As a user, I want an interesting storyline.
 
 ###
 
