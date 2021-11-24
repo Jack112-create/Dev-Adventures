@@ -282,7 +282,8 @@ You have made it to the final stage for the following 3 companies:
 
         if company == "Google":
             print(f"""You are officially a Noogler!
-You have joined the {company} team as a {role} and work with an amazing team.""")
+You have joined the {company} team as a {role} and work with an 
+amazing team.""")
         elif company == "Facebook":
             print(f"""You joined Facebook!
 You have joined the {company} team as a {role}
