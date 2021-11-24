@@ -122,7 +122,7 @@ are printed throughout the game so that the user can keep track of their score a
 
 #### Game Over Screen
 
-- When the user is unsucessfull in completing the game, they will be presented with the game over screen.
+- When the user is unsucessful in completing the game, they will be presented with the game over screen.
 
 ![Game Over Screen](assets/features/game_over.png)
 
