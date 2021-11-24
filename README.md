@@ -109,7 +109,15 @@ name in order to create their developer character.
 
 * As a user, I want an interesting storyline.
 
-###
+#### User Stats
+- Once the user has inputted their name, their stats will be printed to the terminal. The users stats
+are printed throughout the game so that the user can keep track of their score and confidence level. 
+
+![Stats Screen](assets/features/stats.png)
+
+**User stories related to this feature:**
+
+* As a user, I want to be able to view my stats throughout the game.
 
 ### Testing
 
