@@ -1,8 +1,8 @@
 import time
-from functions import clear_terminal, game_over
-from player import Player
-from rooms import Room
-from questions import (
+from adventure.functions import clear_terminal, game_over
+from adventure.player import Player
+from adventrue.rooms import Room
+from adventure.questions import (
     html_questions, css_questions,
     javascript_questions, python_questions
 )
