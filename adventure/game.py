@@ -228,3 +228,18 @@ Invalid choice. You must type a number from 1 - {len(answers)}.""")
                 game_over()
             else:
                 print('\nInvalid choice. Please type "y" or "n".')
+
+    def job_choice(self):
+        clear_terminal()
+        job_choices = ['Google', 'Facebook', 'Apple']
+
+        print(f"""After many interviews, job applications, and further developing your coding knowledge.
+You have made it to the final stage for the following 3 companies:
+- {job_choices[0]}
+- {job_choices[1]}
+- {job_choices[2]}""")
+        print('\nIf your score is high enough, you will be allowed to join the company of your choice.\n')
+        print('Which company would you like to join?:')
+        print(f'1 {job_choices[0]}')
+        print(f'2 {job_choices[1]}')
+        print(f'3 {job_choices[2]}')
