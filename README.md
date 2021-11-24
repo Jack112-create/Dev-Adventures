@@ -130,6 +130,18 @@ are printed throughout the game so that the user can keep track of their score a
 
 * As a user, I want a challenging game that has repercussions if I do not make the correct choice.
 
+### Choose Room Screen
+
+- The user is given the option to choose 1 of 4 languages in which they will have to answers questions 
+about the language they have chosen.
+
+![Choose Room Screen](assets/features/choose_room.png)
+
+**Site Goal related to this feature:**
+
+* Provide users with difficult questions throughout the game.
+
+
 #### Correct & Incorrect Message
 
 - As the user plays a quiz room and answers each question correctly or incorrectly, a message is printed
