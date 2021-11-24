@@ -162,3 +162,34 @@ You must type a number from 1 - {len(rooms)}.
         self.user.set_skills(room.room)
         self.user.show_stats()
         time.sleep(1)
+
+    def check_answer(self, answers, correct_answer):
+        while True:
+            try:
+                user_answer = int(input('> '))
+                """
+                Checks the user answer to see if it's the same index
+                as the index of correct_answer in the list of answers.
+                """
+                if user_answer == answers.index(correct_answer) + 1:
+                    print('Correct!\n')
+                    time.sleep(0.5)
+                    self.user.increase_score()
+                    break
+                elif user_answer > len(answers):
+                    print(f"""
+You must type a number from 1 - {len(answers)}.""")
+                    continue
+                else:
+                    print('Incorrect.')
+                    time.sleep(0.5)
+                    self.user.lower_confidence()
+                    print(f"""
+Try again. Type 1, 2 or 3.""")
+                    self.user.lower_score()
+                    self.is_player_dead()
+                    continue
+            except ValueError:
+                print(f"""
+Invalid choice. You must type a number from 1 - {len(answers)}.""")
+                continue
