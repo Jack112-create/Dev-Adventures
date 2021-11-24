@@ -65,10 +65,6 @@ will have either a positive or negative impact depending on if the user has answ
 
 - The user is presented with a message that will notify them if they have win/lost the game.
 
-### Skeleton
-
-#### Wireframes
-
 ### Surface
 
 #### Design
