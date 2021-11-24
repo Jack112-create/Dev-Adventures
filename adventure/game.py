@@ -145,3 +145,9 @@ Invalid choice. You must type a number from 1 - {len(rooms)}.
 You must type a number from 1 - {len(rooms)}.
 """)
                 continue
+
+    def play_quiz(self, room):
+        """
+        Starts the quiz with the 
+        language chosen by the user.
+        """
