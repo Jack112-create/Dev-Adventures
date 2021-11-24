@@ -145,6 +145,25 @@ Invalid choice. You must type a number from 1 - {len(rooms)}.
 You must type a number from 1 - {len(rooms)}.
 """)
                 continue
+        
+        print('Type "c" to continue or "q" to quit.')
+
+        answer = ''
+        while answer not in ['c', 'q']:
+            answer = input('> ')
+            if answer == 'c':
+                clear_terminal()
+                print('Congratulations!')
+                print('You have accquired all the skills needed to become a Developer!')
+                print('You should be proud of yourself!')
+                
+                break
+            elif answer == 'q':
+                clear_terminal()
+                game_over()
+            else:
+                print('\nInvalid choice. Please type "c" or "q".')
+                continue
 
     def play_quiz(self, room):
         """
