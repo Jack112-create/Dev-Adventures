@@ -71,3 +71,10 @@ class Game:
             except ValueError:
                 print("\nYou cannot input any text. You must type either 1 or 2.")
                 continue
+
+    def kitchen(self):
+        print("\nYou put your clothes on and make you're way into the kitchen.")
+        print("Friends is on the TV.")
+        print("Will you?:\n")
+        print("1 Eat breakfast and drink some coffee.")
+        print("2 Watch 5 seasons of Friends. ")
