@@ -12,8 +12,6 @@ The game is built using python and is played by entering commands into the termi
     * [Strategy Plane](#Strategy)
     * [Scope Plane](#Scope)
     * [Structure Plane](#Structure)
-    * [Skeleton Plane](#Skeleton)
-        * [Wireframes](#Wireframes)
     * [Surface Plane](#Surface)
         * [Design](#Design)
     * [Features](#Features)
