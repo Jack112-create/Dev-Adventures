@@ -119,6 +119,16 @@ are printed throughout the game so that the user can keep track of their score a
 
 * As a user, I want to be able to view my stats throughout the game.
 
+#### Game Over Screen
+
+- When the user is unsucessfull in completing the game, they will be presented with the game over screen.
+
+![Game Over Screen](assets/features/game_over.png)
+
+**User stories related to this feature:**
+
+* As a user, I want a challenging game that has repercussions if I do not make the correct choice.
+
 ### Testing
 
 
