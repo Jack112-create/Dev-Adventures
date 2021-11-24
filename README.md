@@ -118,6 +118,7 @@ are printed throughout the game so that the user can keep track of their score a
 **User stories related to this feature:**
 
 * As a user, I want to be able to view my stats throughout the game.
+* As a user, I want a score system that is tracked as I progress through each challenge.
 
 #### Game Over Screen
 
