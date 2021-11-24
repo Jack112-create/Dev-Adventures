@@ -86,6 +86,18 @@ play the game, view the game rules or to quit the game
     - View the game rules.
     - Quit the game.
 
+### Rules Screen
+- The rules screen provides the user with a brief overview on how to play the game.
+
+**User stories related to this feature:**
+
+* As a user, when I first visit the game I would like to be given the following choices:
+    - Play the game. 
+    - View the game rules.
+    - Quit the game.
+
+![Rules Screen](assets/features/rules.png)
+
 #### Intro Scene
 - The intro scene presents the user with the game story and goal. The user must enter their
 name in order to create their developer character.
@@ -95,6 +107,8 @@ name in order to create their developer character.
 **User stories related to this feature:**
 
 * As a user, I want to be able to view my stats throughout the game.
+
+###
 
 ### Testing
 
