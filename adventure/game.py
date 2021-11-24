@@ -78,3 +78,26 @@ class Game:
         print("Will you?:\n")
         print("1 Eat breakfast and drink some coffee.")
         print("2 Watch 5 seasons of Friends. ")
+
+        # Validating user input. Catching any unexpected input.
+        kitchen_choice = ''
+        while kitchen_choice == '':
+            try:
+                kitchen_choice = int(input('> '))
+                if kitchen_choice not in [1, 2]:
+                    print("\nPlease type 1 or 2.")
+                    kitchen_choice = ''
+                    continue
+                else:
+                    if kitchen_choice == 1:
+                        print("You drink youre coffee")
+                        break
+                    elif kitchen_choice == 2:
+                        clear_terminal()
+                        print("You end up watching Friends all day and forget about your coding.")
+                        self.user.lower_confidence(self.user.confidence)
+                        self.is_player_dead()
+                        break
+            except ValueError:
+                print("\nYou cannot enter any text. You must type either 1 or 2.")
+                continue
