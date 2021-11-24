@@ -243,3 +243,33 @@ You have made it to the final stage for the following 3 companies:
         print(f'1 {job_choices[0]}')
         print(f'2 {job_choices[1]}')
         print(f'3 {job_choices[2]}')
+
+        company_choice = ''
+        while company_choice == '':
+            try:
+                company_choice = int(input('> '))
+                if company_choice == 1 and self.user.score >= 15:
+                    self.end("Front End Developer", "Google")
+                    break
+                elif company_choice == 1 and self.user.score < 15:
+                    print('\nYour score is not high enough to join Google. Choose a different company.')
+                    company_choice = ''
+                    continue
+                elif company_choice == 2 and self.user.score >= 10:
+                    self.end("Back End Developer", "Facebook")
+                    break
+                elif company_choice == 2 and self.user.score < 10:
+                    print('\nYour score is not high enough to join Facebook. Choose a different company.')
+                    company_choice = ''
+                    continue
+                elif company_choice == 3:
+                    self.end("iOS Developer", "Apple")
+                    break
+                else:
+                    print('\nInvalid choice. Please type "1", "2" or "3" to continue.')
+                    company_choice = ''
+                    continue
+
+            except ValueError:
+                print('\nYou cannot enter any text. Please type "1", "2" or "3" to continue')
+                continue
