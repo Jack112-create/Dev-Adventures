@@ -44,6 +44,18 @@ storyline of becoming a Full Stack Developer. The user must prove that they are 
 by completing a series of challenges and obtaining the required skillset to become a Developer.
 
 ### Scope
+Features to be included:
+
+- Title Screen - The first screen that the user should see when starting the game is the title screen.
+The title screen displays the name of the game and gives the user options to play the game, 
+view the game rules or to quit the game.
+
+- Quiz - The game should have quiz like rooms that tests the users knowledge of the language that
+they have chosen from a list of languages.
+
+- The user should have their own stats that can change throughout the game depending on the actions that they take.
+
+- The user should be provided with a clear indication that the game has completed.
 
 ### Structure
 
