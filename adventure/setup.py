@@ -50,7 +50,7 @@ def title_screen_selections():
     while screen_choice not in ['play', 'rules', 'quit']:
         screen_choice = input('> ').lower()
         if screen_choice == 'play':
-            
+            intro_scene()
             break
         elif screen_choice == 'rules':
             rules_menu()
