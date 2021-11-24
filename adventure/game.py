@@ -212,3 +212,19 @@ Try again. Type 1, 2 or 3.""")
                 print(f"""
 Invalid choice. You must type a number from 1 - {len(answers)}.""")
                 continue
+    
+    def job_hunt(self):
+        print('\nWould you like to begin your job hunt?')
+        print('Type "y" or "n".')
+
+        job_hunt_choice = ''
+        while job_hunt_choice not in ['y', 'n']:
+            job_hunt_choice = input('> ')
+            if job_hunt_choice == 'y':
+                self.job_choice()
+            elif job_hunt_choice == 'n':
+                clear_terminal()
+                print('You give into imposter syndrome and never pursue a career as a developer.')
+                game_over()
+            else:
+                print('\nInvalid choice. Please type "y" or "n".')
