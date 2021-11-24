@@ -72,6 +72,7 @@ Stack Developer.
 This won't be the easy journey as it requires a lot of patience and self belief.
 You will face a series of challenges throughout your journey that will mould
 you into becoming a great developer!
+
 Before we begin this new and exciting journey you must enter your name:""")
 
     user = input('> ').capitalize().strip()
