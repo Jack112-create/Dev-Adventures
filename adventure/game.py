@@ -21,7 +21,7 @@ class Game:
         self.css_room = Room('CSS', css_questions)
         self.javascript_room = Room('JavaScript', javascript_questions)
         self.python_room = Room('Python', python_questions)
-    
+
     def start(self):
         clear_terminal()
         self.user.show_stats()
@@ -51,7 +51,7 @@ class Game:
         print('1 Go back to sleep.')
         print('2 Get up and get dressed.')
 
-     # Validating user input. Catching any unexpected input.
+        # Validating user input. Catching any unexpected input.
         morning_choice = ''
         while morning_choice not in [1, 2]:
             try:
@@ -145,7 +145,7 @@ Invalid choice. You must type a number from 1 - {len(rooms)}.
 You must type a number from 1 - {len(rooms)}.
 """)
                 continue
-        
+
         print('Type "c" to continue or "q" to quit.')
 
         answer = ''
@@ -167,7 +167,7 @@ You must type a number from 1 - {len(rooms)}.
 
     def play_quiz(self, room):
         """
-        Starts the quiz with the 
+        Starts the quiz with the
         language chosen by the user.
         """
         room.room_task()
@@ -212,7 +212,7 @@ Try again. Type 1, 2 or 3.""")
                 print(f"""
 Invalid choice. You must type a number from 1 - {len(answers)}.""")
                 continue
-    
+
     def job_hunt(self):
         print('\nWould you like to begin your job hunt?')
         print('Type "y" or "n".')
@@ -280,7 +280,7 @@ You have made it to the final stage for the following 3 companies:
         self.user.show_stats()
         time.sleep(1)
 
-                if company == "Google":
+        if company == "Google":
             print(f"""You are officially a Noogler!
 You have joined the {company} team as a {role} and work with an amazing team.""")
         elif company == "Facebook":
@@ -293,10 +293,10 @@ You have joined the {company} team as an {role} and get to work on the next iOS 
 
         time.sleep(1)
         print("""
- _____                        _____               
+ _____                        _____              
 |  __ \                      |  _  |      
 | |  \/ __ _ _ __ ___   ___  | | | |_   _____ _ __
 | | __ / _` | '_ ` _ \ / _ \ | | | \ \ / / _ \ '__|
-| |_\ \ (_| | | | | | |  __/ \ \_/ /\ V /  __/ |   
+| |_\ \ (_| | | | | | |  __/ \ \_/ /\ V /  __/ |
  \____/\__,_|_| |_| |_|\___|  \___/  \_/ \___|_|
 """)
