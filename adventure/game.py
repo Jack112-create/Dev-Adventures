@@ -151,3 +151,4 @@ You must type a number from 1 - {len(rooms)}.
         Starts the quiz with the 
         language chosen by the user.
         """
+        room.room_task()
