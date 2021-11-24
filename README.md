@@ -130,6 +130,20 @@ are printed throughout the game so that the user can keep track of their score a
 
 * As a user, I want a challenging game that has repercussions if I do not make the correct choice.
 
+#### Correct & Incorrect Message
+
+- As the user plays a quiz room and answers each question correctly or incorrectly, a message is printed
+to notify them if they have gotten the question correct or not. If the user answers correctly their score 
+will increase. If the user does not answer correctly, their confidence level will decrease.
+
+![Correct Message](assets/features/correct.png)
+
+![Incorrect Message](assets/features/incorrect.png)
+
+**User stories related to this feature:**
+
+* As a user, I want a message to be displayed to notify me if I have gotten a question correct or incorrect.
+
 ### Testing
 
 
