@@ -98,7 +98,6 @@ name in order to create their developer character.
 
 ### Testing
 
-#### HTML
 
 ### Bugs
 
