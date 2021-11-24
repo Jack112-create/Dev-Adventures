@@ -101,3 +101,11 @@ class Game:
             except ValueError:
                 print("\nYou cannot enter any text. You must type either 1 or 2.")
                 continue
+
+    def drink_coffee(self):
+        clear_terminal()
+        print('You eat your breakfast and drink your coffee.')
+        time.sleep(1)
+        print("You're now feeling AWAKE and ready to start learning how to code.\n")
+        time.sleep(1)
+        self.choose_room(self.rooms)
