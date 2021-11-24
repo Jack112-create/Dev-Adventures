@@ -1,3 +1,4 @@
+from game import Game
 from adventure.functions import clear_terminal, game_over
 import time
 
