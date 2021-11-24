@@ -74,6 +74,8 @@ will have either a positive or negative impact depending on if the user has answ
 ### Features
 
 ### Title Screen
+- The title screen presents the user with the game title and provides options to
+play the game, view the game rules or to quit the game
 ![Title Screen](assets/features/title.png)
 
 
