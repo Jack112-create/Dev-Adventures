@@ -28,6 +28,8 @@ The game is built using python and is played by entering commands into the termi
     - View the game rules.
     - Quit the game.
 * As a user, I want a challenging game that has repercussions if I do not make the correct choice.
+* As a user, I want a message to be displayed to notify me if I have gotten a question correct or incorrect.
+* As a user, I want to be able to view my stats throughout the game.
 * As a user, I want a score system that is tracked as I progress through each challenge.
 
 ### Site Goals
