@@ -94,6 +94,8 @@ python_questions = [
 What will the output be for the code below:
 def display_helloworld():
     print('Hello World!')
+
+display_helloworld()
 """,
         'answers': ['Hello World!', 'Nothing', 'Error'],
         'correct': 'Hello World!'
