@@ -139,6 +139,7 @@ class Game:
                     print(f"""
 You must type a number from 1 - {len(self.rooms)}.
 """)
+                    continue
             except ValueError:
                 print(f"""
 Invalid choice. You must type a number from 1 - {len(self.rooms)}.
@@ -188,24 +189,26 @@ Invalid choice. You must type a number from 1 - {len(self.rooms)}.
                 Checks the user answer to see if it's the same index
                 as the index of correct_answer in the list of answers.
                 """
-                if user_answer == answers.index(correct_answer) + 1:
-                    print('Correct!\n')
-                    time.sleep(0.5)
-                    self.user.increase_score()
-                    break
-                elif user_answer > len(answers):
+                if user_answer > 0 and user_answer <= len(answers):
+                    if user_answer == answers.index(correct_answer) + 1:
+                        print('Correct!\n')
+                        time.sleep(0.5)
+                        self.user.increase_score()
+                        break
+                    else:
+                        print('Incorrect.')
+                        time.sleep(0.5)
+                        self.user.lower_confidence()
+                        print(f"""
+Try again. Type 1, 2 or 3.""")
+                        self.user.lower_score()
+                        self.is_player_dead()
+                        continue
+                else:
                     print(f"""
 You must type a number from 1 - {len(answers)}.""")
                     continue
-                else:
-                    print('Incorrect.')
-                    time.sleep(0.5)
-                    self.user.lower_confidence()
-                    print(f"""
-Try again. Type 1, 2 or 3.""")
-                    self.user.lower_score()
-                    self.is_player_dead()
-                    continue
+
             except ValueError:
                 print(f"""
 Invalid choice. You must type a number from 1 - {len(answers)}.""")
