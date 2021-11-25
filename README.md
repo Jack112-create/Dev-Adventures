@@ -183,7 +183,7 @@ will increase. If the user does not answer correctly, their confidence level wil
 ### Bugs
 
 ### Deployment
-Deploying the project onto Heroku:
+Deploying the project using Heroku:
 
 - Visit the [Heroku](https://id.heroku.com/login) site.
 - Sign in.
