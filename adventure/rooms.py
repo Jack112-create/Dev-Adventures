@@ -51,6 +51,10 @@ You will be asked 5 questions:
         """
         Prints each answer along with its index.
         """
+        for answer in answers:
+            if answer == "All of the above":
+                answers.pop(answers.index(answer))
+                answers.append(answer)
         for index, value in enumerate(answers):
             # Starting answer index at 1.
             print(index + 1, value)
