@@ -30,7 +30,7 @@ class Game:
         # Validating user input.
         answer = ''
         while answer not in ['c', 'q']:
-            answer = input('> ').lower()
+            answer = input('> ').lower().strip()
             if answer == 'c':
                 self.morning()
             elif answer == 'q':
@@ -149,7 +149,7 @@ Invalid choice. You must type a number from 1 - {len(self.rooms)}.
 
         answer = ''
         while answer not in ['c', 'q']:
-            answer = input('> ')
+            answer = input('> ').lower().strip()
             if answer == 'c':
                 clear_terminal()
                 print('Congratulations!')
@@ -220,7 +220,7 @@ Invalid choice. You must type a number from 1 - {len(answers)}.""")
 
         job_hunt_choice = ''
         while job_hunt_choice not in ['y', 'n']:
-            job_hunt_choice = input('> ')
+            job_hunt_choice = input('> ').lower().strip()
             if job_hunt_choice == 'y':
                 self.job_choice()
             elif job_hunt_choice == 'n':

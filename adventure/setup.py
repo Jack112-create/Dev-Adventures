@@ -49,7 +49,7 @@ def title_screen_selections():
     # Validating users input to ensure they select one of the screens.
     screen_choice = ''
     while screen_choice not in ['play', 'rules', 'quit']:
-        screen_choice = input('> ').lower()
+        screen_choice = input('> ').lower().strip()
         if screen_choice == 'play':
             intro_scene()
             break
