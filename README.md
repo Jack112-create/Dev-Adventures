@@ -185,5 +185,6 @@ will increase. If the user does not answer correctly, their confidence level wil
 ### Deployment
 
 ### Credits
-
-#### Media
+* [ASCII Art](https://www.asciiart.eu/computers) is used to create the "Game Over" screen design and the laptop design in the title screen.
+* [Python Classes with Corey Schafer](https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc) was incredibly helpful
+for my understaning of OOP and general python classes.
