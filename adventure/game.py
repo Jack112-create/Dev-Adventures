@@ -45,7 +45,6 @@ class Game:
 
     def morning(self):
         clear_terminal()
-        time.sleep(1)
         print("It's really early in the morning and your alarm goes off.")
         print("Will you?:\n")
         print('1 Go back to sleep.')
