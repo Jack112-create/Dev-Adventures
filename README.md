@@ -183,6 +183,17 @@ will increase. If the user does not answer correctly, their confidence level wil
 ### Bugs
 
 ### Deployment
+Deploying the project onto Heroku:
+
+- Visit the [Heroku](https://id.heroku.com/login) site.
+- Sign in.
+- Click the "New" button.
+- Click the "Create new app" button.
+- Provide a name for the app in the App name input field.
+- Select your region from the choose region dropdown menu.
+- Click the "Create App" button.
+- Once redirected, proceed to the settings tab.
+
 
 ### Credits
 * [ASCII Art](https://www.asciiart.eu/computers) is used to create the "Game Over" screen design and the laptop design in the title screen.
