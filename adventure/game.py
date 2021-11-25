@@ -107,17 +107,17 @@ class Game:
         time.sleep(1)
         print("You're now feeling AWAKE and ready to start learning how to code.\n")
         time.sleep(1)
-        self.choose_room(self.rooms)
+        self.choose_room()
 
-    def choose_room(self, rooms):
+    def choose_room(self):
         """
         Prints each room and its index value,
         asks user to select the room to play.
         """
 
-        while len(rooms) > 0:
+        while len(self.rooms) > 0:
             print("Which language would you like to learn?:")
-            for index, value in enumerate(rooms):
+            for index, value in enumerate(self.rooms):
                 print(index + 1, value)
             try:
                 choice = int(input('> '))
@@ -136,12 +136,12 @@ class Game:
                     continue
             except ValueError:
                 print(f"""
-Invalid choice. You must type a number from 1 - {len(rooms)}.
+Invalid choice. You must type a number from 1 - {len(self.rooms)}.
 """)
                 continue
             except IndexError:
                 print(f"""
-You must type a number from 1 - {len(rooms)}.
+You must type a number from 1 - {len(self.rooms)}.
 """)
                 continue
 
