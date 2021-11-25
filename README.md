@@ -70,6 +70,10 @@ will have either a positive or negative impact depending on if the user has answ
 
 - The user is presented with a message that will notify them if they have win/lost the game.
 
+**Flow Chart**
+
+![Game Flow](assets/flow_chart/game_flow.png)
+
 ### Surface
 
 #### Design
