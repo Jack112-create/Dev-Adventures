@@ -69,7 +69,7 @@ def intro_scene():
     print("""
 Hello there adventurer! It's time to embark on your journey of becoming a Full
 Stack Developer.
-This won't be the easy journey as it requires a lot of patience and self belief.
+This won't be an easy journey as it requires a lot of patience and self belief.
 You will face a series of challenges throughout your journey that will mould
 you into becoming a great developer!
 
