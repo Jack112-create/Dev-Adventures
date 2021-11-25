@@ -29,6 +29,7 @@ The game is built using python and is played by entering commands into the termi
     - Quit the game.
 * As a user, I want an interesting storyline.
 * As a user, I want to select to be able to select a quiz room.
+* As a user, I want a intructions on how to play a quiz room.
 * As a user, I want a challenging game that has repercussions if I do not make the correct choice.
 * As a user, I want a message to be displayed to notify me if I have gotten a question correct or incorrect.
 * As a user, I want to be able to view my stats throughout the game.
@@ -131,7 +132,7 @@ are printed throughout the game so that the user can keep track of their score a
 
 * As a user, I want a challenging game that has repercussions if I do not make the correct choice.
 
-### Choose Room Screen
+#### Choose Room Screen
 
 - The user is given the option to choose 1 of 4 languages in which they will have to answers questions 
 about the language they have chosen.
@@ -141,6 +142,17 @@ about the language they have chosen.
 **User stories related to this feature:**
 
 * As a user, I want to select to be able to select a quiz room.
+
+#### Room Task Screen
+
+- When the user has chosen the language that they would like to learn, the room task message is displayed
+and provides the user with information on how to proceed through the room.
+
+![Room Task Screen](assets/features/room_task.png)
+
+**User stories related to this feature:**
+
+* As a user, I want a intructions on how to play a quiz room.
 
 
 #### Correct & Incorrect Message
