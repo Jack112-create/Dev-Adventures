@@ -138,7 +138,7 @@ about the language they have chosen.
 
 ![Choose Room Screen](assets/features/choose_room.png)
 
-**Site Goal related to this feature:**
+**User stories related to this feature:**
 
 * As a user, I want to select to be able to select a quiz room.
 
