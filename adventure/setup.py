@@ -75,7 +75,7 @@ you into becoming a great developer!
 
 Before we begin this new and exciting journey you must enter your name:""")
 
-    user = input('> ').capitalize().strip()
+    user = input('> ').strip().capitalize()
     # Validating users input to ensure it's not left empty.
     while True:
         if len(user) <= 0:
