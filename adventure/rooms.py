@@ -51,6 +51,12 @@ You will be asked 5 questions:
         """
         Prints each answer along with its index.
         """
+
+        """
+        Removes 'All of the above' from answers list
+        and adds it back to make it be appear at the bottom
+        of answer choices
+        """
         for answer in answers:
             if answer == "All of the above":
                 answers.pop(answers.index(answer))
