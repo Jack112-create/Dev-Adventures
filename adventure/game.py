@@ -121,30 +121,29 @@ class Game:
                 print(index + 1, value)
             try:
                 choice = int(input('> '))
-                room = self.rooms[choice - 1]
-                if room == 'HTML':
-                    self.play_quiz(self.html_room)
-                    continue
-                elif room == 'CSS':
-                    self.play_quiz(self.css_room)
-                    continue
-                elif room == 'JavaScript':
-                    self.play_quiz(self.javascript_room)
-                    continue
-                elif room == 'Python':
-                    self.play_quiz(self.python_room)
-                    continue
+                if choice > 0 and choice <= len(self.rooms):
+                    room = self.rooms[choice - 1]
+                    if room == 'HTML':
+                        self.play_quiz(self.html_room)
+                        continue
+                    elif room == 'CSS':
+                        self.play_quiz(self.css_room)
+                        continue
+                    elif room == 'JavaScript':
+                        self.play_quiz(self.javascript_room)
+                        continue
+                    elif room == 'Python':
+                        self.play_quiz(self.python_room)
+                        continue
+                else:
+                    print(f"""
+You must type a number from 1 - {len(self.rooms)}.
+""")
             except ValueError:
                 print(f"""
 Invalid choice. You must type a number from 1 - {len(self.rooms)}.
 """)
                 continue
-            except IndexError:
-                print(f"""
-You must type a number from 1 - {len(self.rooms)}.
-""")
-                continue
-
         print('Type "c" to continue or "q" to quit.')
 
         answer = ''
