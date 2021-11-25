@@ -193,6 +193,21 @@ Deploying the project onto Heroku:
 - Select your region from the choose region dropdown menu.
 - Click the "Create App" button.
 - Once redirected, proceed to the settings tab.
+- Click on the "config vars" button.
+- Supply a KEY of PORT and it's value of 8000. The click the "add" button.
+- Next step is to add Buildpacks.
+- Click the "Add buildpack" button.
+- The python buildpack needs to be added first then the nodejs buildpack.
+- Once both of the buildpacks have finished being added, proceed to the deploy tab.
+- Once in the deploy screen, select GitHub as the deployment method and connect your GitHub profile.
+- Search for the repository that you wish to deploy to Heroku and click "connect".
+- Once your repository is connected to Heroku you can choose to either manually or automatically deploy
+your app.
+- By selecting automatic deploys, Heroku will build a new version of the app each time a change has been
+pushed to the repository.
+- Manual deploys allow you to build a new version of your app whenever you click manual deploy.
+- If your build is successful you will then be able to visit the live site by clicking the link that is provided to you
+by Heroku.
 
 
 ### Credits
