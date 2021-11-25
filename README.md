@@ -74,6 +74,10 @@ will have either a positive or negative impact depending on if the user has answ
 
 ![Game Flow](assets/flow_chart/game_flow.png)
 
+- The screenshot above provides the logic that was used to connect all the pieces of the game together. By creating a flow chart
+for the game, I was able to visualise where certain classes needed to be instantiated and manipulated in order for the game to 
+work correctly.
+
 ### Surface
 
 #### Design
