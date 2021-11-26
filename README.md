@@ -182,6 +182,14 @@ will increase. If the user does not answer correctly, their confidence level wil
 
 ### Bugs
 
+#### Fixed Bugs
+- Questions that contain of "All of the above" as an answer needed to be corrected due to the order of the answers being shuffled
+and not placing the "All of the above" answer as the last answer. This bug was corrected by removing the "All of the above" answer from
+the list of answers and re-adding it back to the list so that it will always be positioned at the last index of the choices.
+
+![Bug Fix Gameplay](assets/bugs/bug_fix.png)
+![Bug code fix](assets/bugs/bug_code.png)
+
 ### Deployment
 Deploying the project using Heroku:
 
