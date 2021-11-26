@@ -247,15 +247,16 @@ Invalid choice. You must type a number from 1 - {len(answers)}.""")
         clear_terminal()
         job_choices = ['Google', 'Facebook', 'Apple']
 
-        print(("After many interviews, job applications, "
-              "and further developing your coding knowledge."))
+        print(f"""After many interviews, job applications,
+and further developing your coding knowledge.""")
         print(f"""You have made it to the final stage for the following 3 companies:
 - {job_choices[0]}
 - {job_choices[1]}
 - {job_choices[2]}""")
-        print(('\nIf your score is high enough, you will '
-               'be allowed to join the company of your choice.\n'))
-        print('Which company would you like to join?:')
+        print(f"""
+If your score is high enough, you will
+be allowed to join the company of your choice.
+Which company would you like to join?""")
         print(f'1 {job_choices[0]}')
         print(f'2 {job_choices[1]}')
         print(f'3 {job_choices[2]}')
