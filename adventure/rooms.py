@@ -21,6 +21,7 @@ class Room:
 Welcome to the {self.room} quiz!
 In order to move on with your learning you must put your knowledge of
 {self.room} to the test!
+
 You will be asked 5 questions:
 - Get a question right and your score will increase.
 - Get a question wrong and watch both your confidence level and score go down!
