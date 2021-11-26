@@ -177,6 +177,19 @@ will increase. If the user does not answer correctly, their confidence level wil
 
 * As a user, I want a message to be displayed to notify me if I have gotten a question correct or incorrect.
 
+#### Technologies
+
+* Random
+    - The random module was used to receive random choices from lists and to shuffle items in a list.
+
+* Time
+    - The time module allowed me to set certain time intervals that the player would have to wait for until
+    the next part of the game would execute.
+
+* OS
+    - The OS module allowed me to create the clear_terminal function so that any text displayed in the terminal would be removed
+    when the function was invoked.
+
 ### Testing
 
 #### Manual Testing
