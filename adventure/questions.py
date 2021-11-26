@@ -1,7 +1,11 @@
 html_questions = [
     {
         'question': 'What does HTML stand for?:',
-        'answers': ['Hyper Text Meta Language', 'Hyper Text Markup Language', 'Hyperlinks Mark-up Language'],
+        'answers': [
+            'Hyper Text Meta Language',
+            'Hyper Text Markup Language',
+            'Hyperlinks Mark-up Language'
+        ],
         'correct': 'Hyper Text Markup Language'
     },
     {
@@ -15,13 +19,18 @@ html_questions = [
         'correct': '<h1>'
     },
     {
-        'question': 'What is the correct HTML element for inserting a line break?:',
+        'question': ('What is the correct HTML '
+                     'element for inserting a line break?:'),
         'answers': ['<br>', '<break>', '<b>'],
         'correct': '<br>'
     },
     {
         'question': 'What is the correct HTML for adding a font size?:',
-        'answers': ['<body style="font-size: 20px;">', '<body style="font: 20px">', '<body style="font-size: 20px">'],
+        'answers': [
+            '<body style="font-size: 20px;">',
+            '<body style="font: 20px">',
+            '<body style="font-size: 20px">'
+            ],
         'correct': '<body style="font-size: 20px;">'
     }
 ]
@@ -29,21 +38,32 @@ html_questions = [
 css_questions = [
     {
         'question': 'What does CSS stand for?:',
-        'answers': ['Cascading Style Sheet', 'Computer Style Sheet', 'Creative Style Sheet'],
+        'answers': [
+            'Cascading Style Sheet',
+            'Computer Style Sheet',
+            'Creative Style Sheet'
+            ],
         'correct': 'Cascading Style Sheet'
     },
     {
-        'question': 'Choose the correct way to link a CSS file to a HTML file:',
-        'answers': ['<link rel="stylesheet" href="styles.css">', '<link to="stylesheet"', '<link rel="style.css"'],
+        'question': ('Choose the correct way'
+                     'to link a CSS file to a HTML file:'),
+        'answers': [
+            '<link rel="stylesheet" href="styles.css">',
+            '<link to="stylesheet"',
+            '<link rel="style.css"'
+            ],
         'correct': '<link rel="stylesheet" href="styles.css">'
     },
     {
-        'question': 'Which of the following target a div element with an ID of "container":',
+        'question': ('Which of the following target '
+                     'a div element with an ID of "container":'),
         'answers': ['#container{}', '.container{}', 'container{}'],
         'correct': '#container{}'
     },
     {
-        'question': 'Which of the following target a div element with a class of "content":',
+        'question': ('Which of the following target '
+                     'a div element with a class of "content":'),
         'answers': ['.content{}', '#content{}', 'content{}'],
         'correct': '.content{}'
     },
@@ -56,7 +76,8 @@ css_questions = [
 
 javascript_questions = [
     {
-        'question': 'Which of the following is the syntax to define a function:',
+        'question': ('Which of the following is '
+                     'the syntax to define a function:'),
         'answers': ['function myFunction(){}', 'myFunction(){}', 'function{}'],
         'correct': 'function myFunction(){}'
     },
@@ -67,12 +88,21 @@ javascript_questions = [
     },
     {
         'question': 'Where is the correct place to insert a javascript file?:',
-        'answers': ['<head>', '<body>', 'both the <head> and the <body> section are correct'],
+        'answers': [
+            '<head>',
+            '<body>',
+            'both the <head> and the <body> section are correct'
+            ],
         'correct': 'both the <head> and the <body> section are correct'
     },
     {
-        'question': 'What is the correct method to target an element by its ID?:',
-        'answers': ['document.getElementById()', 'document.getElementsByClassName()', 'document.getElement()'],
+        'question': ('What is the correct method '
+                     'to target an element by its ID?:'),
+        'answers': [
+            'document.getElementById()',
+            'document.getElementsByClassName()',
+            'document.getElement()'
+            ],
         'correct': 'document.getElementById()'
     },
     {
@@ -84,7 +114,8 @@ javascript_questions = [
 
 python_questions = [
     {
-        'question': 'Which of the following is the correct syntax to define a function?:',
+        'question': ('Which of the following is the '
+                     'correct syntax to define a function?:'),
         'answers': ['def my_function():', 'function():', 'def my_function()'],
         'correct': 'def my_function():'
     },
@@ -111,12 +142,14 @@ def divide_numbers(num1, num2):
         'correct': '10, 5'
     },
     {
-        'question': 'Which one of the following is NOT a Python Arithmetic Operator?:',
+        'question': ('Which one of the following is '
+                     'NOT a Python Arithmetic Operator?:'),
         'answers': ['//', '/', '*', '~'],
         'correct': '~'
     },
     {
-        'question': 'Which of the following is the correct syntax for creating a list?:',
+        'question': ('Which of the following is '
+                     'the correct syntax for creating a list?:'),
         'answers': ['[]', '{}', '()', 'All of the above'],
         'correct': '[]'
     }
