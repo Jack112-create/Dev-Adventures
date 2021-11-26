@@ -19,8 +19,8 @@ class Room:
         # Instructions on how to play.
         print(f"""
 Welcome to the {self.room} quiz!
-In order to move on with your learning you must put your knowledge of {self.room}
-to the test!
+In order to move on with your learning you must put your knowledge of
+{self.room} to the test!
 You will be asked 5 questions:
 - Get a question right and your score will increase.
 - Get a question wrong and watch both your confidence level and score go down!
@@ -38,7 +38,10 @@ You will be asked 5 questions:
         correct_answer = question_dict['correct']
         # Changing the order of answers.
         random.shuffle(answers)
-        return {'question': question, 'answers': answers, 'correct_answer': correct_answer}
+        return {
+            'question': question,
+            'answers': answers,
+            'correct_answer': correct_answer}
 
     def display_question(self, question):
         print(question)
