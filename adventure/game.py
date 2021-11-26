@@ -38,7 +38,10 @@ class Game:
             else:
                 print('\nInvalid choice. Please type "c" or "q".')
 
-    # Checks to see if the player has lost all of their confidence and ends game if true.
+    """
+    Checks to see if the player has lost all
+    of their confidence and ends game if true.
+    """
     def is_player_dead(self):
         if self.user.confidence <= 0:
             game_over()
@@ -68,11 +71,13 @@ class Game:
                     print("\nInvalid choice. Please type either 1 or 2.")
                     continue
             except ValueError:
-                print("\nYou cannot input any text. You must type either 1 or 2.")
+                print(("\nYou cannot input any text. "
+                       "You must type either 1 or 2."))
                 continue
 
     def kitchen(self):
-        print("\nYou put your clothes on and make you're way into the kitchen.")
+        print(("\nYou put your clothes on "
+               "and make you're way into the kitchen."))
         print("Friends is on the TV.")
         print("Will you?:\n")
         print("1 Eat breakfast and drink some coffee.")
@@ -93,19 +98,22 @@ class Game:
                         break
                     elif kitchen_choice == 2:
                         clear_terminal()
-                        print("You end up watching Friends all day and forget about your coding.")
+                        print(("You end up watching Friends "
+                               "all day and forget about your coding."))
                         self.user.lower_confidence(self.user.confidence)
                         self.is_player_dead()
                         break
             except ValueError:
-                print("\nYou cannot enter any text. You must type either 1 or 2.")
+                print(("\nYou cannot enter any text. "
+                       "You must type either 1 or 2."))
                 continue
 
     def drink_coffee(self):
         clear_terminal()
         print('You eat your breakfast and drink your coffee.')
         time.sleep(1)
-        print("You're now feeling AWAKE and ready to start learning how to code.\n")
+        print(("You're now feeling AWAKE and "
+               "ready to start learning how to code.\n"))
         time.sleep(1)
         self.choose_room()
 
@@ -153,7 +161,8 @@ Invalid choice. You must type a number from 1 - {len(self.rooms)}.
             if answer == 'c':
                 clear_terminal()
                 print('Congratulations!')
-                print('You have accquired all the skills needed to become a Developer!')
+                print(('You have accquired all the '
+                       'skills needed to become a Developer!'))
                 print('You should be proud of yourself!')
                 self.job_hunt()
                 break
@@ -174,7 +183,10 @@ Invalid choice. You must type a number from 1 - {len(self.rooms)}.
             generated_question = room.generate_question()
             room.display_question(generated_question['question'])
             room.display_answers(generated_question['answers'])
-            self.check_answer(generated_question['answers'], generated_question['correct_answer'])
+            self.check_answer(
+                generated_question['answers'],
+                generated_question['correct_answer']
+                )
         room.room_over()
         self.rooms.pop(self.rooms.index(room.room))
         self.user.set_skills(room.room)
@@ -225,7 +237,8 @@ Invalid choice. You must type a number from 1 - {len(answers)}.""")
                 self.job_choice()
             elif job_hunt_choice == 'n':
                 clear_terminal()
-                print('You give into imposter syndrome and never pursue a career as a developer.')
+                print(('You give into imposter syndrome '
+                       'and never pursue a career as a developer.'))
                 game_over()
             else:
                 print('\nInvalid choice. Please type "y" or "n".')
@@ -234,12 +247,14 @@ Invalid choice. You must type a number from 1 - {len(answers)}.""")
         clear_terminal()
         job_choices = ['Google', 'Facebook', 'Apple']
 
-        print(f"""After many interviews, job applications, and further developing your coding knowledge.
-You have made it to the final stage for the following 3 companies:
+        print(("After many interviews, job applications, "
+              "and further developing your coding knowledge."))
+        print(f"""You have made it to the final stage for the following 3 companies:
 - {job_choices[0]}
 - {job_choices[1]}
 - {job_choices[2]}""")
-        print('\nIf your score is high enough, you will be allowed to join the company of your choice.\n')
+        print(('\nIf your score is high enough, you will '
+               'be allowed to join the company of your choice.\n'))
         print('Which company would you like to join?:')
         print(f'1 {job_choices[0]}')
         print(f'2 {job_choices[1]}')
@@ -253,26 +268,30 @@ You have made it to the final stage for the following 3 companies:
                     self.end("Front End Developer", "Google")
                     break
                 elif company_choice == 1 and self.user.score < 15:
-                    print('\nYour score is not high enough to join Google. Choose a different company.')
+                    print(('\nYour score is not high enough '
+                           'to join Google. Choose a different company.'))
                     company_choice = ''
                     continue
                 elif company_choice == 2 and self.user.score >= 10:
                     self.end("Back End Developer", "Facebook")
                     break
                 elif company_choice == 2 and self.user.score < 10:
-                    print('\nYour score is not high enough to join Facebook. Choose a different company.')
+                    print(('\nYour score is not high enough '
+                           'to join Facebook. Choose a different company.'))
                     company_choice = ''
                     continue
                 elif company_choice == 3:
                     self.end("iOS Developer", "Apple")
                     break
                 else:
-                    print('\nInvalid choice. Please type "1", "2" or "3" to continue.')
+                    print(('\nInvalid choice. Please type "1", '
+                           '"2" or "3" to continue.'))
                     company_choice = ''
                     continue
 
             except ValueError:
-                print('\nYou cannot enter any text. Please type "1", "2" or "3" to continue')
+                print(('\nYou cannot enter any text. Please type "1", '
+                       '"2" or "3" to continue'))
                 continue
 
     def end(self, role, company):
