@@ -283,7 +283,7 @@ You have made it to the final stage for the following 3 companies:
 
         if company == "Google":
             print(f"""You are officially a Noogler!
-You have joined the {company} team as a {role} and work with an 
+You have joined the {company} team as a {role} and work with an
 amazing team.""")
         elif company == "Facebook":
             print(f"""You joined Facebook!
@@ -292,13 +292,13 @@ and get to work alongside with your childhood hero,
  Mark Zuckerburg!""")
         else:
             print(f"""You joined Apple!
-You have joined the {company} team as an {role} and get to work on the next 
+You have joined the {company} team as an {role} and get to work on the next
 iOS updates.""")
 
         time.sleep(1)
         print("""
- _____                        _____              
-|  __ \                      |  _  |      
+ _____                        _____
+|  __ \                      |  _  |
 | |  \/ __ _ _ __ ___   ___  | | | |_   _____ _ __
 | | __ / _` | '_ ` _ \ / _ \ | | | \ \ / / _ \ '__|
 | |_\ \ (_| | | | | | |  __/ \ \_/ /\ V /  __/ |
