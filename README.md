@@ -179,6 +179,8 @@ will increase. If the user does not answer correctly, their confidence level wil
 
 ### Testing
 
+#### Manual Testing
+
 
 ### Bugs
 
