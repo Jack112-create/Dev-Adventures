@@ -193,6 +193,11 @@ will increase. If the user does not answer correctly, their confidence level wil
 ### Testing
 
 #### Manual Testing
+Test Cases:
+
+![Test Case 1](assets/testing/test_case1.png)
+
+![Test Case 2](assets/testing/test_case2.png)
 
 #### Pep8 Validator
 Pep8 validator was used to validate all python code.
