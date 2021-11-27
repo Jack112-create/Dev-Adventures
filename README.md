@@ -177,7 +177,12 @@ will increase. If the user does not answer correctly, their confidence level wil
 
 * As a user, I want a message to be displayed to notify me if I have gotten a question correct or incorrect.
 
-#### Technologies
+#### Future features
+Future features that I would like to implement would be giving the user the option to choose a specific developer journey such as 
+becoming a Front End Developer, Back End Developer, iOS Developer, Android Developer. The languages/technologies to learn would be tailored
+towards the role that the user has chosen for the story. 
+
+### Technologies
 
 * Random
     - The random module was used to receive random choices from lists and to shuffle items in a list.
