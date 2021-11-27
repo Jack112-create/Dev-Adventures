@@ -195,6 +195,25 @@ will increase. If the user does not answer correctly, their confidence level wil
 #### Manual Testing
 
 #### Pep8 Validator
+Pep8 validator was used to validate all python code.
+
+**game.py**
+![game.py Pep8](assets/testing/game_validation.png)
+
+**functions.py**
+![functions.py Pep8](assets/testing/functions_validation.png)
+
+**player.py**
+![player.py Pep8](assets/testing/player_validation.png)
+
+**questions.py**
+![questions.py Pep8](assets/testing/questions_validation.png)
+
+**rooms.py**
+![rooms.py Pep8](assets/testing/rooms_validation.png)
+
+**setup.py**
+![setup.py Pep8](assets/testing/setup_validation.png)
 
 
 ### Bugs
