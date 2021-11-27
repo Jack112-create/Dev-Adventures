@@ -194,6 +194,8 @@ will increase. If the user does not answer correctly, their confidence level wil
 
 #### Manual Testing
 
+#### Pep8 Validator
+
 
 ### Bugs
 
