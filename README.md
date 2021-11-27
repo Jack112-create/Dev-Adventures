@@ -4,6 +4,8 @@
 Dev Adventures is a text-based adventure game where the user takes on the journey of becoming a Full Stack Developer by answering tech questions and collecting new skills as they progress.
 The game is built using python and is played by entering commands into the terminal that is provided to the user.
 
+* [Live Site](https://dev-adventures.herokuapp.com/)
+
 ## Table of Contents
 
 * [User Experience](#Introduction)
